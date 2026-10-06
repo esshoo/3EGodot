@@ -1,0 +1,18 @@
+; Engine configuration file.
+; Used only as a lightweight development/test project for the 3E USDZ addon.
+
+config_version=5
+
+[application]
+
+config/name="3E USDZ Exporter Test"
+run/main_scene="res://main.tscn"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/3e_usdz_exporter/plugin.cfg")
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
